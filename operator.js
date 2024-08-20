@@ -111,9 +111,21 @@ Comparison --> Perbandingan
 1. == --> membandingkan value 
 2. === --> membandingkan value & data type
 3. != --> Tidak sama dengan
-4. >= 
-5. <= 
+4. != --> Tidak sama dengan (cek value & tipe data)
+5. >= 
+6. <= 
 */
 
-let data1 = 50
-let data2 = 10;
+let data1 = "ABC";
+let data2 = "ABC";
+
+let resultOfComparison = data1 != data2;
+
+/* 
+Ternary --> Pengkondisian
+abc ? "123" : "321"
+*/
+
+const ternaryExample = 12;
+ternaryExample > 50 ? console.log("Di atas 50") : console.log("Di bawah 50");
+// if(condition) ? true : false
