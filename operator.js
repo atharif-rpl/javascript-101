@@ -111,7 +111,7 @@ Comparison --> Perbandingan
 1. == --> membandingkan value 
 2. === --> membandingkan value & data type
 3. != --> Tidak sama dengan
-4. != --> Tidak sama dengan (cek value & tipe data)
+4. !== --> Tidak sama dengan (cek value & tipe data)
 5. >= 
 6. <= 
 */
